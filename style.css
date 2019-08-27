@@ -5,3 +5,47 @@
 .imge {
     padding: 5px;
 }
+
+
+
+
+
+
+@keyframes movemyeyes {
+    0%   { left:220px; top:55px;}
+    25%  { left:235px; top:55px;}
+    50%  { left:235px; top:40px;}
+    75%  { left:220px; top:40px;}
+    100% { left:220px; top:55px;}
+  }
+
+
+  @keyframes movemyeyestwo {
+    0%   { left:125px; top:55px;}
+    25%  { left:140px; top:55px;}
+    50%  { left:140px; top:40px;}
+    75%  { left:125px; top:40px;}
+    100% { left:125px; top:55px;}
+  }
+
+
+
+
+.oeild {
+    position: absolute;
+    top: 55px;
+    right: 150px;
+    animation: movemyeyes 4s   infinite;
+
+}
+
+.oeilg {
+    position: absolute;
+    top: 55px;
+    right: 250px;
+    animation: movemyeyestwo 4s   infinite;
+}
+
+
+
+
